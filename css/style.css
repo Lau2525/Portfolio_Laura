@@ -57,7 +57,7 @@ body{
     margin: 0 auto;
     font-family: "Courier New";
     border-right: 0.15em solid white;
-    animation: typing 4s steps(10) 1s 1 normal both, blink 1s steps(1) infinite;
+    animation: typing 4s steps(22) 1s 1 normal both, blink 1s steps(1) infinite;
   }
   @keyframes typing {
     from {

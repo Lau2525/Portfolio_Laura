@@ -38,7 +38,7 @@ body{
 #form-about{
    /*margin-left: 8rem;
     margin-right: 8rem;*/
-    background-color: black;
+    background-color:#7F7B7B;
     padding: 3rem;
     border-radius: 1rem;
 }
@@ -48,9 +48,9 @@ body{
     /*margin-left: 8rem;*/
     margin-top: 0.5rem;
     border-radius: 1rem;
-    background-color: black;
+    background-color: #7F7B7B;
     color: white;
-    border-color: black;
+    border-color: #7F7B7B;
 }
 
 .cancel{
