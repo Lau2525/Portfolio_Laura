@@ -1,0 +1,103 @@
+
+
+body{
+    font-family: 'Hubballi', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url("https://img.freepik.com/fotos-premium/fondo-abstracto-degradado-blanco-negro-banner-pagina-web-diseno-web-aplicaciones_97567-1760.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+/*navbar*/
+.home{
+    font-size: 1.87rem;
+    color: white;
+    padding-top: 4rem;
+    text-align: center; 
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.home:hover{ /*El usuario está sobre el enlace*/
+    text-decoration: underline;
+    color: white;
+}
+.home:active{/*Enlaces activos*/
+    text-decoration: underline;
+}
+
+.navbar-toggler, .navbar-toggler-icon{
+    border-color: white;
+    background-color: white;
+}
+
+/*main*/
+#hi, #Im{
+    font-family: 'JetBrains Mono', monospace;
+    /* font-size: 3.75; */
+    color: white;
+}  
+
+#divImages{
+    position: relative;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+/*Efecto en el texto*/
+#Im{
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1rem;
+    margin: 0 auto;
+    font-family: "Courier New";
+    border-right: 0.15em solid white;
+    animation: typing 4s steps(10) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 50%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+
+/*Efecto en la imagen*/
+#Laura:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+/*Footer*/
+.footer-icons{
+    font-size: 2rem;
+    color:white;
+}
+
+#footer-p{
+    font-size: 1.25rem;
+    color: white;
+
+}
+/*Quitar el hover que trae por default*/
+#ul-footer{
+    --bs-nav-link-color: none; 
+    --bs-nav-link-hover-color: none;
+    --bs-nav-link-disabled-color: none; 
+
+}

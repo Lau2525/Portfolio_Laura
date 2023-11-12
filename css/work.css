@@ -1,0 +1,46 @@
+
+body{
+    font-family: 'Hubballi', sans-serif;
+    /* font-family: 'JetBrains Mono', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif; */
+
+}
+
+.home{
+    font-size: 1.87rem;
+    color: black;
+    padding-top: 4rem;
+    text-align: center; 
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.home:hover{ /*El usuario está sobre el enlace*/
+    text-decoration: underline;
+    color: black
+}
+.home:active{/*Enlaces activos*/
+    text-decoration: underline;
+}
+
+/*Footer*/
+.footer-icons{
+    font-size: 2rem;
+    color:black;
+}
+
+#footer-p{
+    font-size: 1.25rem;
+    color: black;
+
+}
+/*Quitar el hover que trae por default*/
+#ul-footer{
+    --bs-nav-link-color: none; 
+    --bs-nav-link-hover-color: none;
+    --bs-nav-link-disabled-color: none; 
+
+}
+
