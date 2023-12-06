@@ -51,6 +51,15 @@
       </div>
     </div>
 
+<!--Validaciones e inputs-->
+  <section class="container-fluid col-xs-10 col-sm-10 col-md-10 col-lg-10">
+      <div class="alert alert-danger fade show" style="display:none;" role="alert" id="alertValidacionesFields">
+  </section>
+  <section class="container-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="alert alert-success fade show" style="display:none;" role="alert" id="alertValidacionesSubmitSuccess">
+  </section>
+
+
 
 <!--Form-->
     <div class="row">
@@ -65,31 +74,31 @@
         <form>
           <div class="row">
             <div class="form-group col-sm-12 col-md-6 col-lg-6">
-              <label for="inputAddress"></label>
-              <input type="text" class="form-control" placeholder="Name">
+              <label for="inputName"></label>
+              <input type="text" class="form-control" placeholder="Name" id="inputName">
             </div>
             <div class="form-group col-sm-12 col-md-6 col-lg-6">
-              <label for="inputAddress"></label>
-              <input type="text" class="form-control" placeholder="Surname">
+              <label for="inputSurname"></label>
+              <input type="text" class="form-control" placeholder="Surname" id="inputSurname">
             </div>
           </div>
         </form>
 
       <div class="form-group col-sm-12 col-md-12 col-lg-12">
-        <label for="inputAddress"></label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="Email">
+        <label for="inputEmail"></label>
+        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
       </div>
       <div class="form-group col-sm-12 col-md-12 col-lg-12">
-        <label for="exampleFormControlTextarea1"></label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message" ></textarea>
+        <label for="inputMessage"></label>
+        <textarea class="form-control" id="inputMessage" rows="3" placeholder="Message"></textarea>
       </div>
       </div>
   </form>
 </div>
   <div class="d-flex justify-content-center">
     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-    <button type="submit" class="btn btn-form">Submit</button>
-    <button type="submit" class="btn btn-form cancel">Cancel</button>
+    <button type="submit" id="btnSubmit" class="btn btn-form">Submit</button>
+    <button type="submit" id="btnCancel" class="btn btn-form cancel">Cancel</button>
     </div>
   </div>
 </main>
@@ -113,6 +122,8 @@
     </footer>
   </div>
 
+    <script src ="js/about.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </body>
     
 </html>
