@@ -1,11 +1,11 @@
 
 body{
     font-family: 'Hubballi', sans-serif;
-    /* font-family: 'JetBrains Mono', monospace;
+/*     font-family: 'JetBrains Mono', monospace;
     font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Work Sans', sans-serif; */
-
 }
 
 .home{
@@ -44,3 +44,31 @@ body{
 
 }
 
+#someOfMyProjects{
+    font-family: 'JetBrains Mono', monospace;  
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 16rem;
+    padding-bottom: 4rem;
+}
+
+#AsDeveloperText{
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem; 
+    text-align: justify;
+    padding-bottom: 8rem;
+}
+
+.projects{
+    margin-top: 8rem;
+    
+}
+
+.card-title, .card-text{
+    font-family: 'Jost', sans-serif;
+}
+
+
+#card-container{
+    margin-bottom: 4rem;
+}
