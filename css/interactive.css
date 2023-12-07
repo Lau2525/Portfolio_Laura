@@ -1,0 +1,22 @@
+/*navbar*/
+.home{
+    font-size: 1.87rem;
+    color: black;
+    padding-top: 4rem;
+    text-align: center; 
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.home:hover{ /*El usuario está sobre el enlace*/
+    text-decoration: underline;
+    color: white;
+}
+.home:active{/*Enlaces activos*/
+    text-decoration: underline;
+}
+
+.navbar-toggler, .navbar-toggler-icon{
+    border-color: black;
+    background-color: black;
+}
